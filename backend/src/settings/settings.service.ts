@@ -13,7 +13,7 @@ export class SettingsService {
       where: { key: 'site_config' }
     });
     return settings?.value || {
-      siteName: "Logistics B Arab",
+      siteName: "Logistics B Arabc",
       maintenanceMode: false,
       primaryColor: "#2563eb"
     };

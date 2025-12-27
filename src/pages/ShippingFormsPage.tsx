@@ -399,7 +399,7 @@ export const ShippingFormsPage: React.FC<{shipments: Record<string, Shipment>}> 
 
                 const shareData = {
                     title: formTitle,
-                    text: `Here is the ${formTitle} document I created with Logistics B Arabic.`,
+                    text: `Here is the ${formTitle} document I created with Logistics B Arabcic.`,
                     url: shareUrl,
                 };
                 

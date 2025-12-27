@@ -34,7 +34,7 @@ export const SEO: React.FC<SEOProps> = ({
   // Fallback to English if translation is missing, or use key as is
   const title = t(titleKey);
   const description = t(descriptionKey);
-  const siteName = "Logistics B Arab";
+  const siteName = "Logistics B Arabc";
   const fullTitle = `${title} | ${siteName}`;
   const currentUrl = typeof window !== 'undefined' ? window.location.href : '';
   const defaultImage = "https://images.unsplash.com/photo-1586528116311-069242136d1f?w=800&q=80"; // Fallback logistics image

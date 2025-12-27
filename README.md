@@ -1,7 +1,7 @@
-# Logistics B Arabic - Complete Platform
+# Logistics B Arabcic - Complete Platform
 
 ## 🌐 Overview
-Logistics B Arabic is a comprehensive bilingual (Arabic/English) logistics platform designed to bridge the gap between Arabic-speaking logistics professionals and global industry standards. It serves as an integrated ecosystem combining educational content, a verified business directory, and advanced AI-powered tools to empower operations in the MENA region.
+Logistics B Arabcic is a comprehensive bilingual (Arabic/English) logistics platform designed to bridge the gap between Arabic-speaking logistics professionals and global industry standards. It serves as an integrated ecosystem combining educational content, a verified business directory, and advanced AI-powered tools to empower operations in the MENA region.
 
 ## 🚀 Key Modules
 

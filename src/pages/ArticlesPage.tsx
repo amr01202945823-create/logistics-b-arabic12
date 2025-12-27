@@ -66,12 +66,12 @@ const ArticleDetailView: React.FC<{
         "dateModified": new Date().toISOString(),
         "author": [{
             "@type": "Organization",
-            "name": "Logistics B Arab Editorial",
+            "name": "Logistics B Arabc Editorial",
             "url": "https://logisticsbarab.com"
         }],
         "publisher": {
             "@type": "Organization",
-            "name": "Logistics B Arab",
+            "name": "Logistics B Arabc",
             "logo": {
               "@type": "ImageObject",
               "url": "https://logisticsbarab.com/logo.png"
@@ -87,7 +87,7 @@ const ArticleDetailView: React.FC<{
                 descriptionKey={article.summary?.[language] || 'brandName'}
                 type="article"
                 image={article.imageUrl}
-                author="Logistics B Arab Editorial"
+                author="Logistics B Arabc Editorial"
                 publishedTime={new Date().toISOString()} // Mocking date
                 schema={articleSchema}
                 canonicalUrl={`${typeof window !== 'undefined' ? window.location.origin : ''}/#/articles/${article.id}`}

@@ -87,7 +87,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onSectionChange, onOpenCompa
     const organizationSchema = {
         "@context": "https://schema.org",
         "@type": "Organization",
-        "name": "Logistics B Arab",
+        "name": "Logistics B Arabc",
         "url": window.location.href,
         "logo": "https://logisticsbarab.com/logo.png", // Placeholder
         "sameAs": [

@@ -11,7 +11,7 @@ interface FAQItem {
 
 const FAQ_ITEMS: FAQItem[] = [
     {
-        question: { ar: 'ما هي طبيعة الخدمات التي يقدمها Logistics B Arab؟', en: 'What services does Logistics B Arab provide?' },
+        question: { ar: 'ما هي طبيعة الخدمات التي يقدمها Logistics B Arabc؟', en: 'What services does Logistics B Arabc provide?' },
         answer: { 
             ar: 'نحن منصة متخصصة في الخدمات اللوجستية البحرية والمعلومات التجارية، حيث نسعى لتوفير تجربة سهلة وموثوقة لعملائنا للحصول على أدوات حساب الشحن، تتبع الحاويات، ودليل شامل للشركات.', 
             en: 'We are a platform specialized in maritime logistics and trade intelligence, striving to provide a seamless and reliable experience for our customers to access shipping calculation tools, container tracking, and a comprehensive business directory.' 

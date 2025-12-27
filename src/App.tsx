@@ -381,7 +381,7 @@ const Footer: React.FC<{ onSectionChange: (section: Section) => void; socialLink
                 {/* Bottom Bar */}
                 <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-6">
                     <p className="text-slate-500 text-xs text-center md:text-left">
-                        &copy; {currentYear} Logistics B Arab. {t('footerRights')}.
+                        &copy; {currentYear} Logistics B Arabc. {t('footerRights')}.
                     </p>
                     
                     <div className="flex flex-wrap items-center justify-center gap-3">
@@ -425,14 +425,14 @@ export const App: React.FC = () => {
 
     // --- NEW DYNAMIC CORE STATES ---
     const [globalSettings, setGlobalSettings] = useState({
-        siteName: 'Logistics B Arab',
+        siteName: 'Logistics B Arabc',
         contactEmail: 'support@logisticsbarab.com',
         supportPhone: '+20 123 456 7890',
         maintenanceMode: false,
         // Added for Admin Control
         testimonials: [
             { id: 1, text: "The bilingual HS code search tool saved our documentation process.", author: "Import & Export Specialist", role: "Retail Sector" },
-            { id: 2, text: "Logistics B Arab became our regional intelligence layer.", author: "Logistics Manager", role: "Major Export Company" }
+            { id: 2, text: "Logistics B Arabc became our regional intelligence layer.", author: "Logistics Manager", role: "Major Export Company" }
         ],
         socialLinks: {
             twitter: "#",

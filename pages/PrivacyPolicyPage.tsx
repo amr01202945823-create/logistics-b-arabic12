@@ -9,7 +9,7 @@ export const PrivacyPolicyPage: React.FC = () => {
     const arabicContent = (
         <div className="prose prose-slate max-w-none text-right" dir="rtl">
             <p><strong>تاريخ آخر تحديث:</strong> 25 أكتوبر 2023</p>
-            <p>تلتزم إدارة <strong>Logistics B Arab</strong> باحترام خصوصيتك وحماية بياناتك الشخصية. توضح سياسة الخصوصية هذه كيفية جمعنا واستخدامنا وحمايتنا للمعلومات التي تقدمها لنا عند استخدامك لموقعنا/تطبيقنا.</p>
+            <p>تلتزم إدارة <strong>Logistics B Arabc</strong> باحترام خصوصيتك وحماية بياناتك الشخصية. توضح سياسة الخصوصية هذه كيفية جمعنا واستخدامنا وحمايتنا للمعلومات التي تقدمها لنا عند استخدامك لموقعنا/تطبيقنا.</p>
 
             <h3>1. المعلومات التي نجمعها</h3>
             <p>قد نقوم بجمع نوعين من المعلومات:</p>
@@ -53,7 +53,7 @@ export const PrivacyPolicyPage: React.FC = () => {
     const englishContent = (
         <div className="prose prose-slate max-w-none text-left" dir="ltr">
             <p><strong>Last Updated:</strong> October 25, 2023</p>
-            <p>The management of <strong>Logistics B Arab</strong> is committed to respecting your privacy and protecting your personal data. This Privacy Policy explains how we collect, use, and protect the information you provide to us when using our website/application.</p>
+            <p>The management of <strong>Logistics B Arabc</strong> is committed to respecting your privacy and protecting your personal data. This Privacy Policy explains how we collect, use, and protect the information you provide to us when using our website/application.</p>
 
             <h3>1. Information We Collect</h3>
             <p>We may collect two types of information:</p>
