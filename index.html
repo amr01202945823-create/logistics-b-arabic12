@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Primary Meta Tags -->
+    <title>Logistics B Arab | Maritime Intelligence & Tools</title>
+    <meta name="title" content="Logistics B Arab | Maritime Intelligence & Tools" />
+    <meta name="description" content="The first bilingual (Arabic/English) logistics platform connecting professionals with AI-powered tools, directory services, and maritime intelligence." />
+    <meta name="keywords" content="logistics, maritime, freight, shipping, egypt, saudi arabia, hs code, route planner, tracking, customs, directory, ai logistics" />
+    <meta name="theme-color" content="#2563eb" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://logisticsbarab.com/" />
+    <meta property="og:title" content="Logistics B Arab | Maritime Intelligence & Tools" />
+    <meta property="og:description" content="The first bilingual logistics platform in the Arab World. AI route planning, smart documents, company directory, and real-time tracking." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1586528116311-069242136d1f?w=1200&q=80" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://logisticsbarab.com/" />
+    <meta property="twitter:title" content="Logistics B Arab | Maritime Intelligence & Tools" />
+    <meta property="twitter:description" content="The first bilingual logistics platform in the Arab World. AI route planning, smart documents, company directory, and real-time tracking." />
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1586528116311-069242136d1f?w=1200&q=80" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: 'var(--color-primary)',
+                hover: 'var(--color-primary-hover)',
+                light: 'var(--color-primary-light)',
+                deep: 'var(--color-primary-deep)',
+              },
+              secondary: 'var(--color-secondary)',
+              accent: {
+                DEFAULT: 'var(--color-accent)',
+                hover: 'var(--color-accent-hover)',
+              },
+              background: 'var(--color-background)',
+              surface: {
+                DEFAULT: 'var(--color-surface)',
+                hover: 'var(--color-surface-hover)',
+              },
+              border: 'var(--color-border)',
+              text: {
+                base: 'var(--color-text-base)',
+                muted: 'var(--color-text-muted)',
+                heading: 'var(--color-text-heading)',
+              },
+              btn: {
+                secondary: {
+                  bg: 'var(--color-button-secondary-bg)',
+                  text: 'var(--color-button-secondary-text)',
+                  hover: 'var(--color-button-secondary-hover-bg)',
+                }
+              },
+              cert: {
+                bg: 'var(--color-cert-bg)',
+                accent: 'var(--color-cert-accent)',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      :root, [data-theme="light"] {
+        /* Modern Electric Blue Palette */
+        --color-primary: #2563eb; /* Vibrant Blue */
+        --color-primary-hover: #1d4ed8;
+        --color-primary-light: #dbeafe; /* Soft Blue Background */
+        --color-primary-deep: #1e3a8a; /* Navy Blue for strong contrast */
+        
+        --color-secondary: #0f172a; /* Slate 900 - Rich Dark */
+        
+        --color-accent: #f59e0b; /* Amber - Complementary to Blue */
+        --color-accent-hover: #d97706;
+        
+        --color-text-base: #334155; /* Slate 700 - Softer than black */
+        --color-text-muted: #64748b; /* Slate 500 */
+        --color-text-heading: #0f172a; /* Slate 900 */
+        
+        --color-background: #f8fafc; /* Very clean slate */
+        --color-surface: #ffffff;
+        --color-surface-hover: #f9fafb;
+        --color-border: #e2e8f0;
+        
+        --color-button-secondary-bg: #ffffff;
+        --color-button-secondary-text: #2563eb;
+        --color-button-secondary-hover-bg: #eff6ff;
+        
+        /* Certificate specific variables */
+        --color-cert-bg: #f0fdf4;
+        --color-cert-accent: #dcfce7;
+        
+        --shadow-color: 37 99 235; /* Shadow based on Primary Color */
+        --bg-gradient-start: #f0f9ff;
+        --bg-gradient-end: #e0f2fe;
+      }
+      
+      [data-theme="dark"] {
+        /* Cyber/Tech Maritime Palette */
+        --color-primary: #3b82f6; /* Bright Blue */
+        --color-primary-hover: #60a5fa;
+        --color-primary-light: #172554; /* Deepest Blue */
+        --color-primary-deep: #eff6ff;
+        
+        --color-secondary: #f8fafc;
+        
+        --color-accent: #fbbf24;
+        --color-accent-hover: #f59e0b;
+        
+        --color-text-base: #cbd5e1;
+        --color-text-muted: #94a3b8;
+        --color-text-heading: #f8fafc;
+        
+        --color-background: #020617; /* Richer dark background */
+        --color-surface: #0f172a; /* Slate 900 */
+        --color-surface-hover: #1e293b;
+        --color-border: #1e293b;
+        
+        --color-button-secondary-bg: #1e293b;
+        --color-button-secondary-text: #60a5fa;
+        --color-button-secondary-hover-bg: #334155;
+        
+        /* Certificate specific variables (Dark mode adjustments) */
+        --color-cert-bg: #14532d; /* Dark Green */
+        --color-cert-accent: #166534;
+        
+        --shadow-color: 0 0 0;
+        --bg-gradient-start: #020617;
+        --bg-gradient-end: #0f172a;
+      }
+
+      body {
+        background-color: var(--color-background);
+        /* Modern subtle mesh gradient background */
+        background-image: 
+          radial-gradient(at 0% 0%, rgba(var(--shadow-color), 0.15) 0px, transparent 50%),
+          radial-gradient(at 100% 0%, rgba(var(--shadow-color), 0.1) 0px, transparent 50%);
+        background-attachment: fixed;
+        color: var(--color-text-base);
+        font-family: 'Inter', 'Cairo', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        overflow-x: hidden;
+      }
+
+      /* Custom Scrollbar - Sleek & Modern */
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--color-border);
+        border-radius: 10px;
+        transition: background 0.3s;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: var(--color-primary);
+      }
+
+      * {
+        transition: background-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+                    color 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+                    border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+                    box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+
+      .font-cairo { font-family: 'Cairo', sans-serif; }
+      .font-inter { font-family: 'Inter', sans-serif; }
+      
+      /* Animations */
+      @keyframes fadeIn {
+        from { opacity: 0; filter: blur(5px); }
+        to { opacity: 1; filter: blur(0); }
+      }
+      @keyframes slideUp {
+        from { opacity: 0; transform: translateY(30px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+      @keyframes float {
+        0% { transform: translateY(0px); }
+        50% { transform: translateY(-12px); }
+        100% { transform: translateY(0px); }
+      }
+      @keyframes pulse-soft {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.7; }
+      }
+
+      .animate-fade-in { animation: fadeIn 0.6s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+      .animate-slide-up { animation: slideUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards; }
+      .animate-float { animation: float 5s ease-in-out infinite; }
+      .delay-100 { animation-delay: 100ms; }
+      .delay-200 { animation-delay: 200ms; }
+      .delay-300 { animation-delay: 300ms; }
+
+      /* Theme Utility Classes */
+      
+      .bg-primary { 
+        background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-hover) 100%);
+        box-shadow: 0 4px 15px -3px rgba(var(--shadow-color), 0.3);
+      }
+      .bg-primary:hover {
+        box-shadow: 0 10px 25px -5px rgba(var(--shadow-color), 0.4);
+        filter: brightness(1.1);
+      }
+      
+      /* Glassmorphism 2.0 - Premium Feel */
+      .glass-panel {
+        background: rgba(var(--color-surface), 0.75);
+        backdrop-filter: blur(16px);
+        -webkit-backdrop-filter: blur(16px);
+        border: 1px solid rgba(var(--color-primary), 0.1);
+        box-shadow: 
+          0 4px 6px -1px rgba(0, 0, 0, 0.05), 
+          0 2px 4px -1px rgba(0, 0, 0, 0.03),
+          inset 0 0 20px rgba(255, 255, 255, 0.05);
+      }
+      
+      /* Modern Cards */
+      .card-shadow {
+        background: var(--color-surface);
+        border: 1px solid var(--color-border);
+        box-shadow: 0 4px 20px -5px rgba(0, 0, 0, 0.05);
+        border-radius: 16px; /* Softer corners */
+      }
+      .card-shadow-hover {
+        background: var(--color-surface);
+        border: 1px solid var(--color-border);
+        border-radius: 16px;
+        transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+      }
+      .card-shadow-hover:hover {
+        box-shadow: 0 20px 40px -10px rgba(var(--shadow-color), 0.15);
+        transform: translateY(-6px) scale(1.01);
+        border-color: var(--color-primary-hover);
+      }
+      
+      /* Hero section styles */
+      .hero-bg-pattern {
+        background-image: 
+          radial-gradient(rgba(var(--shadow-color), 0.1) 1px, transparent 1px),
+          radial-gradient(rgba(var(--shadow-color), 0.1) 1px, transparent 1px);
+        background-size: 24px 24px;
+        background-position: 0 0, 12px 12px;
+        mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+        -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+      }
+
+      /* Inputs */
+      input, textarea, select {
+        background-color: var(--color-background);
+        border-color: var(--color-border);
+        color: var(--color-text-base);
+      }
+      input:focus, textarea:focus, select:focus {
+        border-color: var(--color-primary);
+        box-shadow: 0 0 0 3px rgba(var(--shadow-color), 0.15);
+      }
+
+      /* Preview font overrides */
+      .preview-font, .document-preview, .document-preview * {
+        font-family: 'Courier New', Courier, 'Times New Roman', Times, serif !important;
+      }
+
+      /* Certificate Pattern Backgrounds */
+      .certificate-green-pattern {
+        background-color: var(--color-cert-bg);
+        background-image: 
+          repeating-linear-gradient(45deg, var(--color-cert-accent) 25%, transparent 25%, transparent 75%, var(--color-cert-accent) 75%, var(--color-cert-accent)), 
+          repeating-linear-gradient(45deg, var(--color-cert-accent) 25%, var(--color-cert-bg) 25%, var(--color-cert-bg) 75%, var(--color-cert-accent) 75%, var(--color-cert-accent));
+        background-position: 0 0, 10px 10px;
+        background-size: 20px 20px;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+
+      /* Document Preview Styles - Generic */
+      .document-preview { 
+        background-color: white; 
+        color: black; 
+        position: relative; 
+        overflow: hidden; 
+        width: var(--preview-width, 210mm);
+        min-height: var(--preview-height, 297mm);
+        font-size: var(--preview-font-size, 10pt);
+        margin: 0 auto;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.15); /* Enhanced shadow for paper effect */
+      }
+      
+      .preview-label { 
+        font-size: 0.7em; 
+        color: #444; 
+        margin-bottom: 2px; 
+        line-height: 1;
+        font-family: Arial, sans-serif !important;
+      }
+      
+      .preview-content { 
+        font-size: 1em; 
+        white-space: pre-wrap; 
+        font-weight: 600;
+        color: #000;
+      }
+      .preview-content-rtl { direction: rtl; }
+      
+      .hidden-preview { display: none; }
+      .sticky-preview-container { position: sticky; top: 6rem; align-self: start; }
+      
+      /* Printing */
+      @media print {
+        @page {
+          size: A4; /* Standard A4 */
+          margin: 0;
+        }
+        body {
+          background: white;
+          margin: 0;
+          padding: 0;
+          -webkit-print-color-adjust: exact !important;
+          print-color-adjust: exact !important;
+        }
+        body * { 
+          visibility: hidden; 
+        }
+        #printable-area, #printable-area *, 
+        #printable-area-forms, #printable-area-forms *, 
+        #printable-area-docs, #printable-area-docs *,
+        #printable-area-invoice, #printable-area-invoice * { 
+          visibility: visible; 
+        }
+        
+        #printable-area, #printable-area-forms, #printable-area-docs, #printable-area-invoice { 
+          position: absolute; 
+          left: 0; 
+          top: 0; 
+          width: 100% !important; 
+          min-height: 100% !important;
+          box-shadow: none !important; 
+          border: none !important; 
+          padding: 0 !important; 
+          margin: 0 !important; 
+          background: white !important;
+          transform: scale(1);
+          transform-origin: top left;
+        }
+        
+        .no-print { display: none !important; }
+        
+        /* Ensure backgrounds print */
+        .certificate-green-pattern {
+          -webkit-print-color-adjust: exact !important;
+          print-color-adjust: exact !important;
+        }
+        
+        /* Force black borders */
+        .document-preview * { border-color: black !important; }
+      }
+
+      .mega-menu { opacity: 0; visibility: hidden; transform: translateY(10px); transition: all 0.3s ease; }
+      .mega-menu-open { opacity: 1; visibility: visible; transform: translateY(0); }
+    </style>
+  <script>
+    (function() {
+      function getInitialTheme() {
+        const persistedTheme = window.localStorage.getItem('theme');
+        if (persistedTheme) return persistedTheme;
+        const userMedia = window.matchMedia('(prefers-color-scheme: dark)');
+        return userMedia.matches ? 'dark' : 'light';
+      }
+      const theme = getInitialTheme();
+      document.documentElement.setAttribute('data-theme', theme);
+      if (theme === 'dark') {
+        document.documentElement.classList.add('dark');
+      } else {
+        document.documentElement.classList.remove('dark');
+      }
+    })();
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.26.0",
+    "uuid": "https://aistudiocdn.com/uuid@^13.0.0",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
+    "zod": "https://aistudiocdn.com/zod@^4.1.13",
+    "@prisma/client": "https://aistudiocdn.com/@prisma/client@^7.0.1",
+    "@nestjs/common": "https://aistudiocdn.com/@nestjs/common@^11.1.9",
+    "@nestjs/core": "https://aistudiocdn.com/@nestjs/core@^11.1.9",
+    "@nestjs/jwt": "https://aistudiocdn.com/@nestjs/jwt@^11.0.1",
+    "argon2": "https://aistudiocdn.com/argon2@^0.44.0",
+    "@nestjs/passport": "https://aistudiocdn.com/@nestjs/passport@^11.0.5",
+    "@nestjs/config": "https://aistudiocdn.com/@nestjs/config@^4.0.2",
+    "@nestjs/throttler": "https://aistudiocdn.com/@nestjs/throttler@^6.4.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

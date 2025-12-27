@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Logistics B Arabic1234",
+  "description": "The first bilingual (Arabic/English) logistics platform in the Arab World. Features AI route planning, smart documents, company directory, and real-time tracking.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
